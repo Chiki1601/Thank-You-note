@@ -1,0 +1,148 @@
+body {
+  background: green;
+  overflow: hidden;
+}
+div{
+  display:flex;
+  flex-direction; column;
+  height: 100vh;
+  
+  align-items: center;
+  justify-content: center; 
+}
+
+.st0 {
+  fill: #f6f5bb;
+}
+.st1 {
+  fill: none;
+  stroke: #445ba9;
+  stroke-width: 0.429;
+  stroke-miterlimit: 10;
+}
+.st2 {
+  fill: none;
+  stroke: #0d1615;
+  stroke-width: 0.6968;
+  stroke-miterlimit: 10;
+}
+.st3 {
+  fill: #ea9349;
+}
+.st4 {
+  fill: #24211f;
+}
+.st5 {
+  fill: none;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+.st6 {
+  fill: none;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+.st9 {
+  fill: #0e0e0d;
+}
+.st10 {
+  fill: #0e0e0d;
+}
+.st15 {
+  stroke: #000000;
+  stroke-width: 1.3186;
+  stroke-miterlimit: 10;
+}
+.st16 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 0.6821;
+  stroke-miterlimit: 10;
+}
+.st17 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 1.3145;
+  stroke-miterlimit: 10;
+}
+
+.st5 {
+  stroke-dasharray: 420;
+  animation: draw 4.8s linear reverse;
+}
+@keyframes draw {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 420;
+  }
+}
+.st6 {
+  stroke-dasharray: 241;
+  opacity: 0;
+  animation: draws 3.2s linear forwards;
+  animation-delay: 4.8s;
+}
+
+@keyframes draws {
+  from {
+    stroke-dashoffset: 241;
+    opacity: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+.st15 {
+  stroke-dasharray: 40;
+  opacity: 0;
+  animation: drawsa 1s linear forwards;
+  animation-delay: 8s;
+}
+
+@keyframes drawsa {
+  from {
+    stroke-dashoffset: 40;
+    opacity: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+.st16 {
+  stroke-dasharray: 91;
+  opacity: 0;
+  animation: drawsb 0.5s linear forwards;
+  animation-delay: 8.5s;
+}
+
+@keyframes drawsb {
+  from {
+    stroke-dashoffset: 91;
+    opacity: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+.st17 {
+  stroke-dasharray: 100;
+  opacity: 0;
+  animation: drawsc 2s linear forwards;
+  animation-delay: 8.8s;
+}
+
+@keyframes drawsc {
+  from {
+    stroke-dashoffset: 100;
+    opacity: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
